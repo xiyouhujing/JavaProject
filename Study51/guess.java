@@ -33,11 +33,11 @@ public class guess{
         }
         System.out.println("你出的是：" + marks1 + "，电脑出的是：" + marks2);
         if (person == computer){
-            System.out.println("你们是平局");
+            System.out.println("你们是平局~~");
         }else if (person==1 && computer==2 || person==2 && computer==3 || person==3 && computer==1){
-            System.out.println("恭喜你，你赢了！");
+            System.out.println("恭喜你，你赢了^-^");
         }else {
-            System.out.println("很遗憾，你输了！");
+            System.out.println("很遗憾，你输了=_=");
         }
     }
 }
